@@ -1,0 +1,1 @@
+﻿Fantasy.Platform.Net.Entry.Start();
