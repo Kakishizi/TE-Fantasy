@@ -840,6 +840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   availableProcedureTypeNames:
+  - GameLogic.OnEnterGameAppProcedure
   - GameMain.ProcedureClearCache
   - GameMain.ProcedureCreateDownloader
   - GameMain.ProcedureDownloadFile

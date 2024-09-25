@@ -45,25 +45,25 @@
             "Comment": "Excel生成在客户端的Json数据文件夹位置"
         },
         "ServerCustomExportDirectory": {
-            "Value": "../../Server/Entity/Generate/CustomExport/",
+            "Value": "../../Server/Fantasy-Server/Entity/Generate/CustomExport/",
             "Comment": "Excel在服务端生成自定义代码的文件夹位置"
         },
         "ClientCustomExportDirectory": {
             "Value": "../../Examples/Client/Unity/Assets/Scripts/Hotfix/Generate/CustomExport",
             "Comment": "Excel在客户端端生成自定义代码的文件夹位置"
-        },
-        "Serializes": {
-            "Value": [
-                {
-                    "KeyIndex": 0,
-                    "NameSpace" : "MemoryPack",
-                    "SerializeName": "MemoryPack",
-                    "Attribute": "\t[MemoryPackable]",
-                    "Ignore": "\t\t[MemoryPackIgnore]",
-                    "Member": "MemoryPackOrder"
-                }
-            ],
-            "Comment": "自定义序列化器"
         }
+        // "Serializes": {
+        //     "Value": [
+        //         {
+        //             "KeyIndex": 0,
+        //             "NameSpace" : "MemoryPack",
+        //             "SerializeName": "MemoryPack",
+        //             "Attribute": "\t[MemoryPackable]",
+        //             "Ignore": "\t\t[MemoryPackIgnore]",
+        //             "Member": "MemoryPackOrder"
+        //         }
+        //     ],
+        //     "Comment": "自定义序列化器"
+        // }
     }
 }

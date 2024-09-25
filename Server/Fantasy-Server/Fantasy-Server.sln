@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fantasy-Server", "Fantasy-S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{60DDEF23-8DE8-4C83-920F-A51645F88735}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotfix", "Hotfix\Hotfix.csproj", "{48BE476D-A7D1-40F3-A397-7875179122A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{60DDEF23-8DE8-4C83-920F-A51645F88735}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60DDEF23-8DE8-4C83-920F-A51645F88735}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60DDEF23-8DE8-4C83-920F-A51645F88735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48BE476D-A7D1-40F3-A397-7875179122A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48BE476D-A7D1-40F3-A397-7875179122A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48BE476D-A7D1-40F3-A397-7875179122A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48BE476D-A7D1-40F3-A397-7875179122A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,5 +1,6 @@
 ﻿using UnityEngine.UI;
 using System;
+using GameLogic;
 using TEngine;
 
 namespace GameMain
@@ -12,7 +13,7 @@ namespace GameMain
         ThreeButton = 3,
     }
 
-    [Window(UILayer.UI, fromResources: true, location: "AssetLoad/UILoadTip")]
+    [Window(UILayer.Tips, fromResources: true, location: "AssetLoad/UILoadTip")]
     public class UILoadTip : UIWindow
     {
         public Action OnOk;
@@ -20,11 +21,13 @@ namespace GameMain
         public MessageShowType ShowType = MessageShowType.None;
 
         #region 脚本工具生成的代码
+
         private Button m_btnPackage;
         private Text m_textTittle;
         private Text m_textInfo;
         private Button m_btnIgnore;
         private Button m_btnUpdate;
+
         protected override void ScriptGenerator()
         {
             m_btnPackage = FindChildComponent<Button>("BgImage/m_btnPackage");
@@ -35,7 +38,10 @@ namespace GameMain
             m_btnPackage.onClick.AddListener(OnClickPackageBtn);
             m_btnIgnore.onClick.AddListener(OnClickIgnoreBtn);
             m_btnUpdate.onClick.AddListener(OnClickUpdateBtn);
+            GameEvent.AddEventListener<string, MessageShowType, LoadStyle.StyleEnum, Action, Action, Action>(
+                ActorEventDefine.OpenTip, ShowMessageBox);
         }
+
         #endregion
 
         #region 事件
@@ -92,7 +98,7 @@ namespace GameMain
             {
                 loadStyleUI.SetStyle((LoadStyle.StyleEnum)userDatas[4]);
             }
-            
+
             base.OnRefresh();
             m_btnIgnore.gameObject.SetActive(false);
             m_btnPackage.gameObject.SetActive(false);
@@ -131,7 +137,7 @@ namespace GameMain
             Action onCancel = null,
             Action onPackage = null)
         {
-            GameModule.UI.ShowUI<UILoadTip>(desc,onOk,onCancel,showtype,style);
+            GameModule.UI.ShowUI<UILoadTip>(desc, onOk, onCancel, showtype, style);
         }
     }
 }

@@ -9,7 +9,7 @@ namespace TEngine
 {
     internal class NetModuleImp : ModuleImp, INetModule
     {
-        public Scene Scene { get;set; }
+        public Scene Scene { get; set; }
 
         internal override void Shutdown()
         {
@@ -17,11 +17,25 @@ namespace TEngine
         }
 
 
-        public void Connect(string remoteAddress, NetworkProtocolType networkProtocolType, Action onConnectComplete,
+        public void Connect(string remoteAddress, NetworkProtocolType networkProtocolType, Action onConnectFail,
+            Action onConnectDisconnect, bool isHttps, int connectTimeout = 5000)
+        {
+            Scene.Connect(remoteAddress, networkProtocolType, OnConnectComplete, onConnectFail, onConnectDisconnect,
+                isHttps, connectTimeout);
+        }
+
+        public void Connect(string remoteAddress, NetworkProtocolType networkProtocolType,
+            Action onConnectSuccess,
             Action onConnectFail, Action onConnectDisconnect, bool isHttps, int connectTimeout = 5000)
         {
-            Scene.Connect(remoteAddress, networkProtocolType, onConnectComplete, onConnectFail, onConnectDisconnect,
+            Scene.Connect(remoteAddress, networkProtocolType, onConnectSuccess, onConnectFail, onConnectDisconnect,
                 isHttps, connectTimeout);
+        }
+
+        private void OnConnectComplete()
+        {
+            Log.Debug("连接成功");
+            Scene.Session.AddComponent<SessionHeartbeatComponent>().Start(2000);
         }
 
         public async FTask<IResponse> Call(IRequest request)
@@ -44,6 +58,11 @@ namespace TEngine
             }
 
             Scene.Session.Send(message);
+        }
+
+        public void Release()
+        {
+            Scene.Session.Dispose();
         }
     }
 }

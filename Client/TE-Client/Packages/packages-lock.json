@@ -27,7 +27,7 @@
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.2.1"
       },
-      "hash": "d716fffe32ab91f335636e180882e0f1788e5350"
+      "hash": "a1a9a7772297b7ddf1cfc4100f13c870446ac5c9"
     },
     "com.tuyoogame.yooasset": {
       "version": "file:YooAsset",
@@ -93,6 +93,15 @@
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework": "1.1.9"
+      },
+      "url": "https://packages.unity.cn"
+    },
+    "com.unity.inputsystem": {
+      "version": "1.7.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
       },
       "url": "https://packages.unity.cn"
     },

@@ -13,10 +13,17 @@ namespace TEngine
         /// </summary>
         public Scene Scene { get; set; }
 
-        public void Connect(string remoteAddress, NetworkProtocolType networkProtocolType, Action onConnectComplete, Action onConnectFail, Action onConnectDisconnect, bool isHttps, int connectTimeout = 5000);
-        
+        public void Connect(string remoteAddress, NetworkProtocolType networkProtocolType, Action onConnectFail,
+            Action onConnectDisconnect, bool isHttps, int connectTimeout = 5000);
+
+        public void Connect(string remoteAddress, NetworkProtocolType networkProtocolType,
+            Action onConnectSuccess, Action onConnectFail, Action onConnectDisconnect, bool isHttps,
+            int connectTimeout = 5000);
+
         public FTask<IResponse> Call(IRequest request);
-        
+
         public void Send(IMessage message);
+        
+        public void Release();
     }
 }
