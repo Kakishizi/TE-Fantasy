@@ -18,8 +18,190 @@ using Fantasy.Serialize;
 namespace Fantasy
 {	
 	[ProtoContract]
+	public partial class C2A_LoginRequest : AMessage, IRequest, IProto
+	{
+#if FANTASY_UNITY
+
+		public static C2A_LoginRequest Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<C2A_LoginRequest>();
+		}
+#endif
+
+		public static C2A_LoginRequest Create(Scene scene)
+		{
+			return scene.MessagePoolComponent.Rent<C2A_LoginRequest>();
+		}
+		public override void Dispose()
+		{
+			Account = default;
+			Password = default;
+#if FANTASY_NET || FANTASY_UNITY
+			GetScene().MessagePoolComponent.Return<C2A_LoginRequest>(this);
+#endif
+		}
+		[ProtoIgnore]
+		public A2C_LoginResponse ResponseType { get; set; }
+		public uint OpCode() { return OuterOpcode.C2A_LoginRequest; }
+		[ProtoMember(1)]
+		public string Account { get; set; }
+		[ProtoMember(2)]
+		public string Password { get; set; }
+	}
+	[ProtoContract]
+	public partial class A2C_LoginResponse : AMessage, IResponse, IProto
+	{
+#if FANTASY_UNITY
+
+		public static A2C_LoginResponse Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<A2C_LoginResponse>();
+		}
+#endif
+
+		public static A2C_LoginResponse Create(Scene scene)
+		{
+			return scene.MessagePoolComponent.Rent<A2C_LoginResponse>();
+		}
+		public override void Dispose()
+		{
+			ErrorCode = default;
+			Token = default;
+			Address = default;
+#if FANTASY_NET || FANTASY_UNITY
+			GetScene().MessagePoolComponent.Return<A2C_LoginResponse>(this);
+#endif
+		}
+		public uint OpCode() { return OuterOpcode.A2C_LoginResponse; }
+		[ProtoMember(1)]
+		public string Token { get; set; }
+		[ProtoMember(2)]
+		public string Address { get; set; }
+		[ProtoMember(3)]
+		public uint ErrorCode { get; set; }
+	}
+	[ProtoContract]
+	public partial class C2A_RegisterRequest : AMessage, IRequest, IProto
+	{
+#if FANTASY_UNITY
+
+		public static C2A_RegisterRequest Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<C2A_RegisterRequest>();
+		}
+#endif
+
+		public static C2A_RegisterRequest Create(Scene scene)
+		{
+			return scene.MessagePoolComponent.Rent<C2A_RegisterRequest>();
+		}
+		public override void Dispose()
+		{
+			Account = default;
+			Password = default;
+#if FANTASY_NET || FANTASY_UNITY
+			GetScene().MessagePoolComponent.Return<C2A_RegisterRequest>(this);
+#endif
+		}
+		[ProtoIgnore]
+		public A2C_RegisterResponse ResponseType { get; set; }
+		public uint OpCode() { return OuterOpcode.C2A_RegisterRequest; }
+		[ProtoMember(1)]
+		public string Account { get; set; }
+		[ProtoMember(2)]
+		public string Password { get; set; }
+	}
+	[ProtoContract]
+	public partial class A2C_RegisterResponse : AMessage, IResponse, IProto
+	{
+#if FANTASY_UNITY
+
+		public static A2C_RegisterResponse Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<A2C_RegisterResponse>();
+		}
+#endif
+
+		public static A2C_RegisterResponse Create(Scene scene)
+		{
+			return scene.MessagePoolComponent.Rent<A2C_RegisterResponse>();
+		}
+		public override void Dispose()
+		{
+			ErrorCode = default;
+#if FANTASY_NET || FANTASY_UNITY
+			GetScene().MessagePoolComponent.Return<A2C_RegisterResponse>(this);
+#endif
+		}
+		public uint OpCode() { return OuterOpcode.A2C_RegisterResponse; }
+		[ProtoMember(1)]
+		public uint ErrorCode { get; set; }
+	}
+	[ProtoContract]
+	public partial class C2G_LoginRequest : AMessage, IRequest, IProto
+	{
+#if FANTASY_UNITY
+
+		public static C2G_LoginRequest Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<C2G_LoginRequest>();
+		}
+#endif
+
+		public static C2G_LoginRequest Create(Scene scene)
+		{
+			return scene.MessagePoolComponent.Rent<C2G_LoginRequest>();
+		}
+		public override void Dispose()
+		{
+			Token = default;
+#if FANTASY_NET || FANTASY_UNITY
+			GetScene().MessagePoolComponent.Return<C2G_LoginRequest>(this);
+#endif
+		}
+		[ProtoIgnore]
+		public G2C_LoginResponse ResponseType { get; set; }
+		public uint OpCode() { return OuterOpcode.C2G_LoginRequest; }
+		[ProtoMember(1)]
+		public string Token { get; set; }
+	}
+	[ProtoContract]
+	public partial class G2C_LoginResponse : AMessage, IResponse, IProto
+	{
+#if FANTASY_UNITY
+
+		public static G2C_LoginResponse Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<G2C_LoginResponse>();
+		}
+#endif
+
+		public static G2C_LoginResponse Create(Scene scene)
+		{
+			return scene.MessagePoolComponent.Rent<G2C_LoginResponse>();
+		}
+		public override void Dispose()
+		{
+			ErrorCode = default;
+#if FANTASY_NET || FANTASY_UNITY
+			GetScene().MessagePoolComponent.Return<G2C_LoginResponse>(this);
+#endif
+		}
+		public uint OpCode() { return OuterOpcode.G2C_LoginResponse; }
+		[ProtoMember(1)]
+		public uint ErrorCode { get; set; }
+	}
+	[ProtoContract]
 	public partial class C2G_TestMessage : AMessage, IMessage, IProto
 	{
+#if FANTASY_UNITY
+
+		public static C2G_TestMessage Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<C2G_TestMessage>();
+		}
+#endif
+
 		public static C2G_TestMessage Create(Scene scene)
 		{
 			return scene.MessagePoolComponent.Rent<C2G_TestMessage>();
@@ -38,6 +220,14 @@ namespace Fantasy
 	[ProtoContract]
 	public partial class C2G_TestRequest : AMessage, IRequest, IProto
 	{
+#if FANTASY_UNITY
+
+		public static C2G_TestRequest Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<C2G_TestRequest>();
+		}
+#endif
+
 		public static C2G_TestRequest Create(Scene scene)
 		{
 			return scene.MessagePoolComponent.Rent<C2G_TestRequest>();
@@ -58,6 +248,14 @@ namespace Fantasy
 	[ProtoContract]
 	public partial class G2C_TestResponse : AMessage, IResponse, IProto
 	{
+#if FANTASY_UNITY
+
+		public static G2C_TestResponse Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<G2C_TestResponse>();
+		}
+#endif
+
 		public static G2C_TestResponse Create(Scene scene)
 		{
 			return scene.MessagePoolComponent.Rent<G2C_TestResponse>();
@@ -79,6 +277,14 @@ namespace Fantasy
 	[ProtoContract]
 	public partial class C2G_CreateAddressableRequest : AMessage, IRequest, IProto
 	{
+#if FANTASY_UNITY
+
+		public static C2G_CreateAddressableRequest Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<C2G_CreateAddressableRequest>();
+		}
+#endif
+
 		public static C2G_CreateAddressableRequest Create(Scene scene)
 		{
 			return scene.MessagePoolComponent.Rent<C2G_CreateAddressableRequest>();
@@ -96,6 +302,14 @@ namespace Fantasy
 	[ProtoContract]
 	public partial class G2C_CreateAddressableResponse : AMessage, IResponse, IProto
 	{
+#if FANTASY_UNITY
+
+		public static G2C_CreateAddressableResponse Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<G2C_CreateAddressableResponse>();
+		}
+#endif
+
 		public static G2C_CreateAddressableResponse Create(Scene scene)
 		{
 			return scene.MessagePoolComponent.Rent<G2C_CreateAddressableResponse>();
@@ -114,6 +328,14 @@ namespace Fantasy
 	[ProtoContract]
 	public partial class C2M_TestMessage : AMessage, IAddressableRouteMessage, IProto
 	{
+#if FANTASY_UNITY
+
+		public static C2M_TestMessage Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<C2M_TestMessage>();
+		}
+#endif
+
 		public static C2M_TestMessage Create(Scene scene)
 		{
 			return scene.MessagePoolComponent.Rent<C2M_TestMessage>();
@@ -132,6 +354,14 @@ namespace Fantasy
 	[ProtoContract]
 	public partial class C2M_TestRequest : AMessage, IAddressableRouteRequest, IProto
 	{
+#if FANTASY_UNITY
+
+		public static C2M_TestRequest Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<C2M_TestRequest>();
+		}
+#endif
+
 		public static C2M_TestRequest Create(Scene scene)
 		{
 			return scene.MessagePoolComponent.Rent<C2M_TestRequest>();
@@ -152,6 +382,14 @@ namespace Fantasy
 	[ProtoContract]
 	public partial class M2C_TestResponse : AMessage, IAddressableRouteResponse, IProto
 	{
+#if FANTASY_UNITY
+
+		public static M2C_TestResponse Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<M2C_TestResponse>();
+		}
+#endif
+
 		public static M2C_TestResponse Create(Scene scene)
 		{
 			return scene.MessagePoolComponent.Rent<M2C_TestResponse>();
@@ -176,6 +414,14 @@ namespace Fantasy
 	[ProtoContract]
 	public partial class C2G_CreateChatRouteRequest : AMessage, IRequest, IProto
 	{
+#if FANTASY_UNITY
+
+		public static C2G_CreateChatRouteRequest Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<C2G_CreateChatRouteRequest>();
+		}
+#endif
+
 		public static C2G_CreateChatRouteRequest Create(Scene scene)
 		{
 			return scene.MessagePoolComponent.Rent<C2G_CreateChatRouteRequest>();
@@ -193,6 +439,14 @@ namespace Fantasy
 	[ProtoContract]
 	public partial class G2C_CreateChatRouteResponse : AMessage, IResponse, IProto
 	{
+#if FANTASY_UNITY
+
+		public static G2C_CreateChatRouteResponse Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<G2C_CreateChatRouteResponse>();
+		}
+#endif
+
 		public static G2C_CreateChatRouteResponse Create(Scene scene)
 		{
 			return scene.MessagePoolComponent.Rent<G2C_CreateChatRouteResponse>();
@@ -214,6 +468,14 @@ namespace Fantasy
 	[ProtoContract]
 	public partial class C2Chat_TestMessage : AMessage, ICustomRouteMessage, IProto
 	{
+#if FANTASY_UNITY
+
+		public static C2Chat_TestMessage Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<C2Chat_TestMessage>();
+		}
+#endif
+
 		public static C2Chat_TestMessage Create(Scene scene)
 		{
 			return scene.MessagePoolComponent.Rent<C2Chat_TestMessage>();
@@ -237,6 +499,14 @@ namespace Fantasy
 	[ProtoContract]
 	public partial class C2Chat_TestMessageRequest : AMessage, ICustomRouteRequest, IProto
 	{
+#if FANTASY_UNITY
+
+		public static C2Chat_TestMessageRequest Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<C2Chat_TestMessageRequest>();
+		}
+#endif
+
 		public static C2Chat_TestMessageRequest Create(Scene scene)
 		{
 			return scene.MessagePoolComponent.Rent<C2Chat_TestMessageRequest>();
@@ -259,6 +529,14 @@ namespace Fantasy
 	[ProtoContract]
 	public partial class Chat2C_TestMessageResponse : AMessage, ICustomRouteResponse, IProto
 	{
+#if FANTASY_UNITY
+
+		public static Chat2C_TestMessageResponse Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<Chat2C_TestMessageResponse>();
+		}
+#endif
+
 		public static Chat2C_TestMessageResponse Create(Scene scene)
 		{
 			return scene.MessagePoolComponent.Rent<Chat2C_TestMessageResponse>();

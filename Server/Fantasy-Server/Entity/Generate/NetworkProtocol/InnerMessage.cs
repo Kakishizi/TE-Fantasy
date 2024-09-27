@@ -20,6 +20,14 @@ namespace Fantasy
 	[ProtoContract]
 	public partial class G2A_TestRequest : AMessage, IRouteRequest, IProto
 	{
+#if FANTASY_UNITY
+
+		public static G2A_TestRequest Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<G2A_TestRequest>();
+		}
+#endif
+
 		public static G2A_TestRequest Create(Scene scene)
 		{
 			return scene.MessagePoolComponent.Rent<G2A_TestRequest>();
@@ -37,6 +45,14 @@ namespace Fantasy
 	[ProtoContract]
 	public partial class G2A_TestResponse : AMessage, IRouteResponse, IProto
 	{
+#if FANTASY_UNITY
+
+		public static G2A_TestResponse Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<G2A_TestResponse>();
+		}
+#endif
+
 		public static G2A_TestResponse Create(Scene scene)
 		{
 			return scene.MessagePoolComponent.Rent<G2A_TestResponse>();
@@ -55,6 +71,14 @@ namespace Fantasy
 	[ProtoContract]
 	public partial class G2M_RequestAddressableId : AMessage, IRouteRequest, IProto
 	{
+#if FANTASY_UNITY
+
+		public static G2M_RequestAddressableId Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<G2M_RequestAddressableId>();
+		}
+#endif
+
 		public static G2M_RequestAddressableId Create(Scene scene)
 		{
 			return scene.MessagePoolComponent.Rent<G2M_RequestAddressableId>();
@@ -72,6 +96,14 @@ namespace Fantasy
 	[ProtoContract]
 	public partial class M2G_ResponseAddressableId : AMessage, IRouteResponse, IProto
 	{
+#if FANTASY_UNITY
+
+		public static M2G_ResponseAddressableId Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<M2G_ResponseAddressableId>();
+		}
+#endif
+
 		public static M2G_ResponseAddressableId Create(Scene scene)
 		{
 			return scene.MessagePoolComponent.Rent<M2G_ResponseAddressableId>();
@@ -96,6 +128,14 @@ namespace Fantasy
 	[ProtoContract]
 	public partial class G2Chat_CreateRouteRequest : AMessage, IRouteRequest, IProto
 	{
+#if FANTASY_UNITY
+
+		public static G2Chat_CreateRouteRequest Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<G2Chat_CreateRouteRequest>();
+		}
+#endif
+
 		public static G2Chat_CreateRouteRequest Create(Scene scene)
 		{
 			return scene.MessagePoolComponent.Rent<G2Chat_CreateRouteRequest>();
@@ -116,6 +156,14 @@ namespace Fantasy
 	[ProtoContract]
 	public partial class Chat2G_CreateRouteResponse : AMessage, IRouteResponse, IProto
 	{
+#if FANTASY_UNITY
+
+		public static Chat2G_CreateRouteResponse Create()
+		{
+			return Fantasy.Platform.Unity.Entry.Scene.MessagePoolComponent.Rent<Chat2G_CreateRouteResponse>();
+		}
+#endif
+
 		public static Chat2G_CreateRouteResponse Create(Scene scene)
 		{
 			return scene.MessagePoolComponent.Rent<Chat2G_CreateRouteResponse>();

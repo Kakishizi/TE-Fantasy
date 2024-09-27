@@ -7,10 +7,10 @@ using TEngine;
 /// <summary>
 /// 游戏App。
 /// </summary>
-public partial class GameApp:Singleton<GameApp>
+public partial class GameApp : Singleton<GameApp>
 {
     private static List<Assembly> _hotfixAssembly;
-    
+
     /// <summary>
     /// 热更域App主入口。
     /// </summary>
@@ -20,6 +20,7 @@ public partial class GameApp:Singleton<GameApp>
         _hotfixAssembly = (List<Assembly>)objects[0];
         Log.Warning("======= 看到此条日志代表你成功运行了热更新代码 =======");
         Log.Warning("======= Entrance GameApp =======");
+        GameModule.Client.Init(_hotfixAssembly.ToArray());
         Instance.Active();
         Instance.Start();
         Utility.Unity.AddUpdateListener(Instance.Update);
@@ -63,7 +64,7 @@ public partial class GameApp:Singleton<GameApp>
             Utility.Unity.RemoveOnDrawGizmosListener(Instance.OnDrawGizmos);
             Utility.Unity.RemoveOnApplicationPauseListener(Instance.OnApplicationPause);
         }
-        
+
         SingletonSystem.Release();
     }
 
@@ -90,6 +91,7 @@ public partial class GameApp:Singleton<GameApp>
             logic.OnUpdate();
             TProfiler.EndSample();
         }
+
         TProfiler.EndFirstSample();
     }
 
@@ -105,6 +107,7 @@ public partial class GameApp:Singleton<GameApp>
             logic.OnFixedUpdate();
             TProfiler.EndSample();
         }
+
         TProfiler.EndFirstSample();
     }
 
@@ -120,6 +123,7 @@ public partial class GameApp:Singleton<GameApp>
             logic.OnLateUpdate();
             TProfiler.EndSample();
         }
+
         TProfiler.EndFirstSample();
     }
 
@@ -132,6 +136,7 @@ public partial class GameApp:Singleton<GameApp>
             var logic = listLogic[i];
             logic.OnDestroy();
         }
+
         Shutdown(ShutdownType.Restart);
     }
 

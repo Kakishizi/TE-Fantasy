@@ -34,24 +34,24 @@ namespace GameLogic
 
         private async void OnClickLoginBtn()
         {
-            // var error = await AuthHelper.Login(m_TmpInputAccount.text, m_TmpInputPsw.text);
-            // if (error != ErrorCode.Success)
-            // {
-            //     TipsHelper.ShowTip($"登录失败[{error}]");
-            // }
+            var error = await AuthHelper.Login(m_TmpInputAccount.text, m_TmpInputPsw.text);
+            if (error != ErrorCode.Success)
+            {
+                TipsHelper.ShowTip($"登录失败[{error}]");
+                return;
+            }
 
+            GameModule.UI.ShowUI<ULobbyWindow>();
         }
+
         private async void OnClickRegisterBtn()
         {
-            // var error = await AuthHelper.Register(m_TmpInputAccount.text, m_TmpInputPsw.text);
-            // if (error != ErrorCode.Success)
-            // {
-            //     TipsHelper.ShowTip($"注册失败[{error}]");
-            // }
-   
-            GameModule.Client.Connect("127.0.0.1:20000", NetworkProtocolType.KCP, OnConnectFail, OnConnectDisconnect,
-                false, 5000);
-            GameModule.Client.Send(new C2G_TestMessage());
+            var error = await AuthHelper.Register(m_TmpInputAccount.text, m_TmpInputPsw.text);
+            if (error != ErrorCode.Success)
+            {
+                TipsHelper.ShowTip($"注册失败[{error}]");
+                return;
+            }
         }
 
         #endregion

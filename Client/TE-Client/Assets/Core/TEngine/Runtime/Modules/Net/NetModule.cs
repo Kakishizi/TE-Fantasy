@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection;
 using Fantasy.Async;
 using Fantasy.Network;
 using Fantasy.Network.Interface;
@@ -10,7 +11,9 @@ namespace TEngine
     public class NetModule : Module
     {
         private INetModule _netModule;
-        [SerializeField] private string _remoteAddress = "127.0.0.1:20000";
+        [SerializeField] private string _remoteAddress = "127.0.0.1";
+        private int WebPort = 20001;
+        private int Port = 20000;
 
         private async void Start()
         {
@@ -18,16 +21,25 @@ namespace TEngine
             {
                 _netModule = ModuleImpSystem.GetModule<NetModuleImp>();
             }
-            
-            Fantasy.Platform.Unity.Entry.Initialize();
-            _netModule.Scene = await Fantasy.Platform.Unity.Entry.CreateScene();
-            Log.Info("NetModule Start");
+
+            Log.Debug("NetModule Start");
         }
 
-        public void Connect()
+        public async void Init(Assembly[] assemblies)
         {
-            _netModule.Connect(_remoteAddress, NetworkProtocolType.KCP, () => { Log.Info("连接成功"); },
-                () => { Log.Error("连接失败"); }, (() => {Log.Info("连接断开");}), false);
+            Fantasy.Platform.Unity.Entry.Initialize(assemblies);
+            _netModule.Scene = await Fantasy.Platform.Unity.Entry.CreateScene();
+        }
+
+        public void ConnectToRealm()
+        {
+#if FANTASY_WEBGL
+            _netModule.Connect($"{_remoteAddress}:{WebPort}", NetworkProtocolType.KCP, () => { Log.Info("连接成功"); },
+                () => { Log.Error("连接失败"); }, (() => { Log.Info("连接断开"); }), false);
+#else
+            _netModule.Connect($"{_remoteAddress}:{Port}", NetworkProtocolType.KCP, () => { Log.Info("连接成功"); },
+                () => { Log.Error("连接失败"); }, (() => { Log.Info("连接断开"); }), false);
+#endif
         }
 
         public void Connect(string remoteAddress, NetworkProtocolType networkProtocolType, Action onConnectFail,

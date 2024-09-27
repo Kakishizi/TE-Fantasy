@@ -1,6 +1,5 @@
 ﻿using UnityEngine.UI;
 using System;
-using GameLogic;
 using TEngine;
 
 namespace GameMain
@@ -38,8 +37,6 @@ namespace GameMain
             m_btnPackage.onClick.AddListener(OnClickPackageBtn);
             m_btnIgnore.onClick.AddListener(OnClickIgnoreBtn);
             m_btnUpdate.onClick.AddListener(OnClickUpdateBtn);
-            GameEvent.AddEventListener<string, MessageShowType, LoadStyle.StyleEnum, Action, Action, Action>(
-                ActorEventDefine.OpenTip, ShowMessageBox);
         }
 
         #endregion

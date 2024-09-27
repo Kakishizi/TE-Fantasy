@@ -7,6 +7,43 @@ package Fantasy.Network.Message;
 // 使用方式:
 // 在message协议上方添加// Protocol+空格+协议名字
 // 例如:// Protocol ProtoBuf 或 // Protocol MemoryPack
+
+// 登录请求
+message C2A_LoginRequest // IRequest,A2C_LoginResponse
+{
+	string Account = 1;
+	string Password = 2;
+}
+
+message A2C_LoginResponse // IResponse
+{
+	string Token = 1; // 登录成功后的Token
+	string Address = 2; // 登录成功后的Address
+}
+
+// 注册请求
+message C2A_RegisterRequest // IRequest,A2C_RegisterResponse
+{
+	string Account = 1;
+	string Password = 2;
+}
+
+message A2C_RegisterResponse // IResponse
+{
+	
+}
+
+// 登录网关请求
+message C2G_LoginRequest // IRequest,G2C_LoginResponse
+{
+	string Token = 1;
+}
+
+message G2C_LoginResponse // IResponse
+{
+
+}
+
 message C2G_TestMessage // IMessage
 {
 	string Tag = 1;
