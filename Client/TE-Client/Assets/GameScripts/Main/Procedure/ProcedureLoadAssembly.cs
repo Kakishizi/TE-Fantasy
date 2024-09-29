@@ -148,8 +148,11 @@ namespace GameMain
         {
             m_HotfixAssemblys.Clear();
             Assembly mainLogicAssembly = null;
+            Debug.Log(SettingsUtils.HybridCLRCustomGlobalSettings.LogicMainDllName);
+                
             foreach (var assembly in AppDomain.CurrentDomain.GetAssemblies())
             {
+                Debug.Log(assembly.GetName().Name);
                 if (string.Compare(SettingsUtils.HybridCLRCustomGlobalSettings.LogicMainDllName, $"{assembly.GetName().Name}.dll",
                         StringComparison.Ordinal) == 0)
                 {

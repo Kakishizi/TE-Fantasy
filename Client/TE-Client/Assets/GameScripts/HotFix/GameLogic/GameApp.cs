@@ -40,7 +40,7 @@ public partial class GameApp : Singleton<GameApp>
     private void StartGameLogic()
     {
         Log.Debug(" 开始");
-        GameModule.UI.ShowUI<UILoginWindow>();
+        GameModule.UI.ShowUIAsync<UILoginWindow>();
     }
 
     /// <summary>

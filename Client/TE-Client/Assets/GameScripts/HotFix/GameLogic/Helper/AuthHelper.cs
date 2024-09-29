@@ -24,8 +24,8 @@ namespace GameLogic
         public static async FTask<uint> Login(string account, string password)
         {
             GameModule.Client.ConnectToRealm();
-            // C2A_LoginRequest request = C2A_LoginRequest.Create();
-            C2A_LoginRequest request = new C2A_LoginRequest();
+             C2A_LoginRequest request = C2A_LoginRequest.Create();
+           // C2A_LoginRequest request = new C2A_LoginRequest();
             request.Account = account;
             request.Password = password;
             var response = (A2C_LoginResponse)await GameModule.Client.Call(request);

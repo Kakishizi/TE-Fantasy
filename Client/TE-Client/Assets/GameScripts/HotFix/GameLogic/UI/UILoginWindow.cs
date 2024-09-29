@@ -41,7 +41,7 @@ namespace GameLogic
                 return;
             }
 
-            GameModule.UI.ShowUI<ULobbyWindow>();
+            GameModule.UI.ShowUIAsync<ULobbyWindow>();
         }
 
         private async void OnClickRegisterBtn()

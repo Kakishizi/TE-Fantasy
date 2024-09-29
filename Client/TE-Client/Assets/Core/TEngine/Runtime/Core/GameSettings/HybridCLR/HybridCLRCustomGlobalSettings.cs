@@ -30,7 +30,7 @@ public class HybridCLRCustomGlobalSettings
     /// <summary>
     /// Dll of main business logic assembly
     /// </summary>
-    public string LogicMainDllName = "GameLogic.dll";
+    public string LogicMainDllName = "Assembly-Csharp.dll";
 
     /// <summary>
     /// 程序集文本资产打包Asset后缀名

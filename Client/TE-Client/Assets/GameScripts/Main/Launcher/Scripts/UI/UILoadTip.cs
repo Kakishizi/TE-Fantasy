@@ -134,7 +134,7 @@ namespace GameMain
             Action onCancel = null,
             Action onPackage = null)
         {
-            GameModule.UI.ShowUI<UILoadTip>(desc, onOk, onCancel, showtype, style);
+            GameModule.UI.ShowUIAsync<UILoadTip>(desc, onOk, onCancel, showtype, style);
         }
     }
 }

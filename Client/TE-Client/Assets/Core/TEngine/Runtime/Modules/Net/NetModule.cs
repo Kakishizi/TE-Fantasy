@@ -34,7 +34,7 @@ namespace TEngine
         public void ConnectToRealm()
         {
 #if FANTASY_WEBGL
-            _netModule.Connect($"{_remoteAddress}:{WebPort}", NetworkProtocolType.KCP, () => { Log.Info("连接成功"); },
+            _netModule.Connect($"{_remoteAddress}:{WebPort}", NetworkProtocolType.WebSocket, () => { Log.Info("连接成功"); },
                 () => { Log.Error("连接失败"); }, (() => { Log.Info("连接断开"); }), false);
 #else
             _netModule.Connect($"{_remoteAddress}:{Port}", NetworkProtocolType.KCP, () => { Log.Info("连接成功"); },

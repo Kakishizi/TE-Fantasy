@@ -28,7 +28,7 @@ namespace GameMain
             }
             _uiMap.Add(UIDefine.UILoadUpdate, typeof(UILoadUpdate));
             _uiMap.Add(UIDefine.UILoadTip, typeof(UILoadTip));
-            GameModule.UI.ShowUI<UILoadUpdate>();
+            GameModule.UI.ShowUIAsync<UILoadUpdate>();
             _isInit = true;
         }
 

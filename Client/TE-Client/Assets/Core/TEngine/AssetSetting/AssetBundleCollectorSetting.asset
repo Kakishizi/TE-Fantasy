@@ -119,15 +119,7 @@ MonoBehaviour:
       GroupDesc: "\u573A\u666F"
       AssetTags: Scenes
       ActiveRuleName: EnableGroup
-      Collectors:
-      - CollectPath: Assets/AssetRaw/Scenes
-        CollectorGUID: cace6ee6539f661419b5e5f8ae1c0146
-        CollectorType: 0
-        AddressRuleName: AddressByFileName
-        PackRuleName: PackDirectory
-        FilterRuleName: CollectAll
-        AssetTags: 
-        UserData: 
+      Collectors: []
     - GroupName: Shaders
       GroupDesc: "\u7740\u8272\u5668"
       AssetTags: Shaders

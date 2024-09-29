@@ -11,10 +11,8 @@ namespace TEngine.Editor
         private static readonly string[] RuntimeAssemblyNames =
         {
             "TEngine.Runtime",
-            "Assembly-CSharp",
             "GameMain",
             "GameMain.Runtime",
-            "GameLogic",
         };
 
         private static readonly string[] RuntimeOrEditorAssemblyNames =
