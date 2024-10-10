@@ -152,7 +152,7 @@ namespace GameMain
                 
             foreach (var assembly in AppDomain.CurrentDomain.GetAssemblies())
             {
-                Debug.Log(assembly.GetName().Name);
+//                Debug.Log(assembly.GetName().Name);
                 if (string.Compare(SettingsUtils.HybridCLRCustomGlobalSettings.LogicMainDllName, $"{assembly.GetName().Name}.dll",
                         StringComparison.Ordinal) == 0)
                 {

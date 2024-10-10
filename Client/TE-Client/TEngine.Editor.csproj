@@ -26,7 +26,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\TEngine.Editor\</OutputPath>
-    <DefineConstants>UNITY_2022_3_34;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CLOTH;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_WEBGL;TEXTCORE_1_0_OR_NEWER;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TextMeshPro;ENABLE_HYBRIDCLR;ODIN_VALIDATOR;ODIN_VALIDATOR_3_1;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;ENABLE_INFO_AND_ABOVE_LOG;FANTASY_WEBGL;FANTASY_UNITY;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_EDITOR_ONLY_COMPILATION</DefineConstants>
+    <DefineConstants>UNITY_2022_3_34;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CLOTH;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_WEBGL;TEXTCORE_1_0_OR_NEWER;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TextMeshPro;ENABLE_HYBRIDCLR;ODIN_VALIDATOR;ODIN_VALIDATOR_3_1;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;FANTASY_WEBGL;FANTASY_UNITY;ENABLE_INFO_AND_ABOVE_LOG;UNITASK_DOTWEEN_SUPPORT;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_EDITOR_ONLY_COMPILATION</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
@@ -46,12 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Core\TEngine\Editor\Utility\HelperInfo.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\Inspector\AudioModuleInspector.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\Inspector\FsmComponentInspector.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\Inspector\RootModuleInspector.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\Localization\PostProcessBuild_UnloadLanguages.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\Localization\Inspectors\LocalizeDropdownInspector.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\GameSettings\SettingsMenu.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\ToolbarExtender\ToolbarExtender.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\Inspector\ObjectPoolModuleInspector.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\Utility\GetAssetHelper.cs" />
@@ -61,62 +56,68 @@
     <Compile Include="Assets\Core\TEngine\Editor\Localization\Localization\LocalizationEditor_Terms.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\UI\ScriptGenerator.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\UI\TEUIHelperWindiw.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\Utility\OpenFolderHelper.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\GameSettings\SynAssemblysContent.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\UI\ComponentAutoBindTool\AutoBindGlobalSetting.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\Utility\ShellHelper.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\Localization\Inspectors\LocalizationParamsManagerInspector.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\DefineSymbols\ProfilerDefineSymbols.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\Inspector\UIModuleInspector.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\Localization\Localization\LocalizationEditor_Spreadsheet_Google.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\Resource\Encryption.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\Localization\Localization\LocalizationEditor_Tools_Scenes.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\Localization\Localization\LocalizationEditor_Warnings.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\Localization\Localization\LocalizationEditor_Languages.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\Utility\ClassHelper.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\ToolbarExtender\Custom\SceneSwitcher\Editor\EditorResourceMode.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\Localization\Localization\LocalizationEditor_Tools_Script.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\Resource\ExtensionFilterRule.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\EventInterface\EventInterfaceGenerate.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\Localization\Localization\LocalizationEditor_Terms_Description.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\Localization\Localization\LocalizationEditor_Tools.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\Localization\UpgradeManager.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\HybridCLR\BuildDLLCommand.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\Localization\Inspectors\SetLanguageInspector.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\Localization\Inspectors\LocalizationEditor.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\ToolbarExtender\Custom\SceneSwitcher\Editor\SceneSwitcher.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\DefineSymbols\WXGameDefineSymbols.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\Utility\CommandLineReader.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\Postprocessor\SpritePostprocessor.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\DefineSymbols\LogScriptingDefineSymbols.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\Localization\Localization\LocalizationEditor_Spreadsheet_Local.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\Utility\LogRedirection.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\Localization\Inspectors\LanguageSourceAssetInspector.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\Localization\EditorTools.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\DefineSymbols\ScriptingDefineSymbols.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\UI\ComponentAutoBindTool\ComponentAutoBindToolInspector.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\Localization\Localization\LocalizationEditor_Tools_NoLocalized.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\Localization\Inspectors\LanguageSourceInspector.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\Localization\Localization\LocalizationEditor.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\UI\ComponentAutoBindTool\AutoBindGlobalSettingInspector.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\Inspector\Core\GameFrameworkInspector.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\Localization\Localization\LocalizationEditor_Tools_ParseTerms.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\Inspector\ResourceModuleInspector.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\Inspector\MemoryPoolModuleInspector.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\Inspector\SettingModuleInspector.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\Localization\Localization\LocalizationEditor_Tools_Categorize.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\Inspector\Asset\TextAssetInspector.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\Localization\PostProcessBuild_ANDROID.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\Localization\Localization\LocalizationEditor_Tools_CharSet.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\GameSettings\TEngineSettingsProvider.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\Localization\Localization\LocalizationEditor_Tools_MergeTerms.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\UI\TEUIHelper.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\ToolbarExtender\ToolbarCallback.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\Localization\Inspectors\LocalizeInspector.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\EditorTools\LubanTools.cs" />
-    <Compile Include="Assets\Core\TEngine\Editor\Localization\Inspectors\TermsPopup_Drawer.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\Utility\Type.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\Localization\Inspectors\ResourceManagerInspector.cs" />
     <Compile Include="Assets\Core\TEngine\Editor\Localization\PostProcessBuild_IOS.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\Inspector\AudioModuleInspector.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\Inspector\FsmComponentInspector.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\Inspector\RootModuleInspector.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\Localization\Inspectors\LocalizeDropdownInspector.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\GameSettings\SettingsMenu.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\Utility\OpenFolderHelper.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\GameSettings\SynAssemblysContent.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\Localization\Inspectors\LocalizationParamsManagerInspector.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\DefineSymbols\ProfilerDefineSymbols.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\Localization\Localization\LocalizationEditor_Tools_Scenes.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\Localization\Localization\LocalizationEditor_Warnings.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\Utility\ClassHelper.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\Localization\Localization\LocalizationEditor_Tools_Script.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\EventInterface\EventInterfaceGenerate.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\Localization\Localization\LocalizationEditor_Terms_Description.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\Localization\Localization\LocalizationEditor_Tools.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\Localization\Inspectors\SetLanguageInspector.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\Localization\Inspectors\LocalizationEditor.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\ToolbarExtender\Custom\SceneSwitcher\Editor\SceneSwitcher.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\Postprocessor\SpritePostprocessor.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\Localization\Localization\LocalizationEditor_Spreadsheet_Local.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\Utility\LogRedirection.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\Localization\Inspectors\LanguageSourceAssetInspector.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\DefineSymbols\ScriptingDefineSymbols.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\UI\ComponentAutoBindTool\ComponentAutoBindToolInspector.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\Localization\Inspectors\LanguageSourceInspector.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\Localization\Localization\LocalizationEditor.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\UI\ComponentAutoBindTool\AutoBindGlobalSettingInspector.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\Inspector\Core\GameFrameworkInspector.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\Localization\Localization\LocalizationEditor_Tools_Categorize.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\Localization\Localization\LocalizationEditor_Tools_CharSet.cs" />
+    <Compile Include="Assets\Core\TEngine\Editor\Localization\Inspectors\TermsPopup_Drawer.cs" />
     <None Include="Assets\Core\TEngine\Editor\TEngine.Editor.asmdef" />
     <None Include="Assets\Core\TEngine\Editor\Localization\Unity XCode\Xcode.txt" />
     <Reference Include="UnityEngine">
@@ -430,6 +431,42 @@
     </Reference>
     <Reference Include="Sirenix.OdinValidator.Editor">
       <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinValidator.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\WX-WASM-SDK-V2\Runtime\Plugins\LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.FontABTool">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\WX-WASM-SDK-V2\Runtime\Plugins\Unity.FontABTool.dll</HintPath>
+    </Reference>
+    <Reference Include="wx-editor">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\WX-WASM-SDK-V2\Editor\wx-editor.dll</HintPath>
+    </Reference>
+    <Reference Include="wx-runtime-editor">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\WX-WASM-SDK-V2\Runtime\Plugins\wx-runtime-editor.dll</HintPath>
+    </Reference>
+    <Reference Include="wx-perf">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\WX-WASM-SDK-V2\Runtime\Plugins\wx-perf.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiEditor">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\Plugins\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiLib">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenProEditor">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\Plugins\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Reflection.Editor">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>

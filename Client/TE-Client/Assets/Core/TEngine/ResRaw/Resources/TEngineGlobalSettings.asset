@@ -18,13 +18,13 @@ MonoBehaviour:
     mAppStageEnum: 1
     m_DefaultFont: Arial
     m_ResourcesArea:
-      m_ResAdminType: Dev
-      m_ResAdminCode: 0
+      m_ResAdminType: V
+      m_ResAdminCode: 1.0
       m_ServerType: 1
       m_CleanCommitPathRes: 1
-      m_InnerResourceSourceUrl: http://10.30.33.4/CDN/
-      m_ExtraResourceSourceUrl: http://10.30.33.4/CDN/
-      m_FormalResourceSourceUrl: http://10.30.33.4/CDN/
+      m_InnerResourceSourceUrl: http://10.30.33.4/CDN/MiniGame/webgl/Res/
+      m_ExtraResourceSourceUrl: http://10.30.33.4/CDN/MiniGame/webgl/Res/
+      m_FormalResourceSourceUrl: http://10.30.33.4/CDN/MiniGame/webgl/Res/
     m_AtlasFolder: Assets/AssetRaw/Atlas
     HostServerURL: http://127.0.0.1:8081/AssetRoot
     FallbackHostServerURL: http://127.0.0.1:8081/AssetRoot
@@ -91,6 +91,7 @@ MonoBehaviour:
     - YooAsset.dll
     - UniTask.dll
     - TEngine.Runtime.dll
+    - Fantasy.Unity.dll
     LogicMainDllName: Assembly-CSharp.dll
     AssemblyTextAssetExtension: .bytes
     AssemblyTextAssetPath: AssetRaw/DLL

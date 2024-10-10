@@ -12,14 +12,17 @@ namespace YooAsset
         private IRemoteServices _remoteServices;
 
         public readonly string PackageName;
+
         public DownloadManager Download
         {
             get { return _assist.Download; }
         }
+
         public PersistentManager Persistent
         {
             get { return _assist.Persistent; }
         }
+
         public IRemoteServices RemoteServices
         {
             get { return _remoteServices; }
@@ -34,12 +37,12 @@ namespace YooAsset
         /// <summary>
         /// 异步初始化
         /// </summary>
-        public InitializationOperation InitializeAsync(ResourceAssist assist, IBuildinQueryServices buildinQueryServices, IRemoteServices remoteServices)
+        public InitializationOperation InitializeAsync(ResourceAssist assist,
+            IBuildinQueryServices buildinQueryServices, IRemoteServices remoteServices)
         {
             _assist = assist;
             _buildinQueryServices = buildinQueryServices;
             _remoteServices = remoteServices;
-
             var operation = new WebPlayModeInitializationOperation(this);
             OperationSystem.StartOperation(PackageName, operation);
             return operation;
@@ -50,9 +53,11 @@ namespace YooAsset
         {
             string remoteMainURL = _remoteServices.GetRemoteMainURL(packageBundle.FileName);
             string remoteFallbackURL = _remoteServices.GetRemoteFallbackURL(packageBundle.FileName);
-            BundleInfo bundleInfo = new BundleInfo(_assist, packageBundle, BundleInfo.ELoadMode.LoadFromRemote, remoteMainURL, remoteFallbackURL);
+            BundleInfo bundleInfo = new BundleInfo(_assist, packageBundle, BundleInfo.ELoadMode.LoadFromRemote,
+                remoteMainURL, remoteFallbackURL);
             return bundleInfo;
         }
+
         private List<BundleInfo> ConvertToDownloadList(List<PackageBundle> downloadList)
         {
             List<BundleInfo> result = new List<BundleInfo>(downloadList.Count);
@@ -61,6 +66,7 @@ namespace YooAsset
                 var bundleInfo = ConvertToDownloadInfo(packageBundle);
                 result.Add(bundleInfo);
             }
+
             return result;
         }
 
@@ -88,17 +94,13 @@ namespace YooAsset
         }
 
         #region IPlayMode接口
+
         public PackageManifest ActiveManifest
         {
-            set
-            {
-                _activeManifest = value;
-            }
-            get
-            {
-                return _activeManifest;
-            }
+            set { _activeManifest = value; }
+            get { return _activeManifest; }
         }
+
         public void FlushManifestVersionFile()
         {
         }
@@ -109,12 +111,15 @@ namespace YooAsset
             OperationSystem.StartOperation(PackageName, operation);
             return operation;
         }
-        UpdatePackageManifestOperation IPlayMode.UpdatePackageManifestAsync(string packageVersion, bool autoSaveVersion, int timeout)
+
+        UpdatePackageManifestOperation IPlayMode.UpdatePackageManifestAsync(string packageVersion, bool autoSaveVersion,
+            int timeout)
         {
             var operation = new WebPlayModeUpdatePackageManifestOperation(this, packageVersion, timeout);
             OperationSystem.StartOperation(PackageName, operation);
             return operation;
         }
+
         PreDownloadContentOperation IPlayMode.PreDownloadContentAsync(string packageVersion, int timeout)
         {
             var operation = new WebPlayModePreDownloadContentOperation(this);
@@ -122,12 +127,15 @@ namespace YooAsset
             return operation;
         }
 
-        ResourceDownloaderOperation IPlayMode.CreateResourceDownloaderByAll(int downloadingMaxNumber, int failedTryAgain, int timeout)
+        ResourceDownloaderOperation IPlayMode.CreateResourceDownloaderByAll(int downloadingMaxNumber,
+            int failedTryAgain, int timeout)
         {
             List<BundleInfo> downloadList = GetDownloadListByAll(_activeManifest);
-            var operation = new ResourceDownloaderOperation(Download, PackageName, downloadList, downloadingMaxNumber, failedTryAgain, timeout);
+            var operation = new ResourceDownloaderOperation(Download, PackageName, downloadList, downloadingMaxNumber,
+                failedTryAgain, timeout);
             return operation;
         }
+
         public List<BundleInfo> GetDownloadListByAll(PackageManifest manifest)
         {
             List<PackageBundle> downloadList = new List<PackageBundle>(1000);
@@ -147,12 +155,15 @@ namespace YooAsset
             return ConvertToDownloadList(downloadList);
         }
 
-        ResourceDownloaderOperation IPlayMode.CreateResourceDownloaderByTags(string[] tags, int downloadingMaxNumber, int failedTryAgain, int timeout)
+        ResourceDownloaderOperation IPlayMode.CreateResourceDownloaderByTags(string[] tags, int downloadingMaxNumber,
+            int failedTryAgain, int timeout)
         {
             List<BundleInfo> downloadList = GetDownloadListByTags(_activeManifest, tags);
-            var operation = new ResourceDownloaderOperation(Download, PackageName, downloadList, downloadingMaxNumber, failedTryAgain, timeout);
+            var operation = new ResourceDownloaderOperation(Download, PackageName, downloadList, downloadingMaxNumber,
+                failedTryAgain, timeout);
             return operation;
         }
+
         public List<BundleInfo> GetDownloadListByTags(PackageManifest manifest, string[] tags)
         {
             List<PackageBundle> downloadList = new List<PackageBundle>(1000);
@@ -184,12 +195,15 @@ namespace YooAsset
             return ConvertToDownloadList(downloadList);
         }
 
-        ResourceDownloaderOperation IPlayMode.CreateResourceDownloaderByPaths(AssetInfo[] assetInfos, int downloadingMaxNumber, int failedTryAgain, int timeout)
+        ResourceDownloaderOperation IPlayMode.CreateResourceDownloaderByPaths(AssetInfo[] assetInfos,
+            int downloadingMaxNumber, int failedTryAgain, int timeout)
         {
             List<BundleInfo> downloadList = GetDownloadListByPaths(_activeManifest, assetInfos);
-            var operation = new ResourceDownloaderOperation(Download, PackageName, downloadList, downloadingMaxNumber, failedTryAgain, timeout);
+            var operation = new ResourceDownloaderOperation(Download, PackageName, downloadList, downloadingMaxNumber,
+                failedTryAgain, timeout);
             return operation;
         }
+
         public List<BundleInfo> GetDownloadListByPaths(PackageManifest manifest, AssetInfo[] assetInfos)
         {
             // 获取资源对象的资源包和所有依赖资源包
@@ -233,22 +247,31 @@ namespace YooAsset
             return ConvertToDownloadList(downloadList);
         }
 
-        ResourceUnpackerOperation IPlayMode.CreateResourceUnpackerByAll(int upackingMaxNumber, int failedTryAgain, int timeout)
+        ResourceUnpackerOperation IPlayMode.CreateResourceUnpackerByAll(int upackingMaxNumber, int failedTryAgain,
+            int timeout)
         {
-            return ResourceUnpackerOperation.CreateEmptyUnpacker(Download, PackageName, upackingMaxNumber, failedTryAgain, timeout);
-        }
-        ResourceUnpackerOperation IPlayMode.CreateResourceUnpackerByTags(string[] tags, int upackingMaxNumber, int failedTryAgain, int timeout)
-        {
-            return ResourceUnpackerOperation.CreateEmptyUnpacker(Download, PackageName, upackingMaxNumber, failedTryAgain, timeout);
+            return ResourceUnpackerOperation.CreateEmptyUnpacker(Download, PackageName, upackingMaxNumber,
+                failedTryAgain, timeout);
         }
 
-        ResourceImporterOperation IPlayMode.CreateResourceImporterByFilePaths(string[] filePaths, int importerMaxNumber, int failedTryAgain, int timeout)
+        ResourceUnpackerOperation IPlayMode.CreateResourceUnpackerByTags(string[] tags, int upackingMaxNumber,
+            int failedTryAgain, int timeout)
         {
-            return ResourceImporterOperation.CreateEmptyImporter(Download, PackageName, importerMaxNumber, failedTryAgain, timeout);
+            return ResourceUnpackerOperation.CreateEmptyUnpacker(Download, PackageName, upackingMaxNumber,
+                failedTryAgain, timeout);
         }
+
+        ResourceImporterOperation IPlayMode.CreateResourceImporterByFilePaths(string[] filePaths, int importerMaxNumber,
+            int failedTryAgain, int timeout)
+        {
+            return ResourceImporterOperation.CreateEmptyImporter(Download, PackageName, importerMaxNumber,
+                failedTryAgain, timeout);
+        }
+
         #endregion
 
         #region IBundleQuery接口
+
         private BundleInfo CreateBundleInfo(PackageBundle packageBundle)
         {
             if (packageBundle == null)
@@ -264,6 +287,7 @@ namespace YooAsset
             // 从服务端下载
             return ConvertToDownloadInfo(packageBundle);
         }
+
         BundleInfo IBundleQuery.GetMainBundleInfo(AssetInfo assetInfo)
         {
             if (assetInfo.IsInvalid)
@@ -273,6 +297,7 @@ namespace YooAsset
             var packageBundle = _activeManifest.GetMainPackageBundle(assetInfo.AssetPath);
             return CreateBundleInfo(packageBundle);
         }
+
         BundleInfo[] IBundleQuery.GetDependBundleInfos(AssetInfo assetInfo)
         {
             if (assetInfo.IsInvalid)
@@ -286,8 +311,10 @@ namespace YooAsset
                 BundleInfo bundleInfo = CreateBundleInfo(packageBundle);
                 result.Add(bundleInfo);
             }
+
             return result.ToArray();
         }
+
         string IBundleQuery.GetMainBundleName(AssetInfo assetInfo)
         {
             if (assetInfo.IsInvalid)
@@ -297,6 +324,7 @@ namespace YooAsset
             var packageBundle = _activeManifest.GetMainPackageBundle(assetInfo.AssetPath);
             return packageBundle.BundleName;
         }
+
         string[] IBundleQuery.GetDependBundleNames(AssetInfo assetInfo)
         {
             if (assetInfo.IsInvalid)
@@ -309,12 +337,15 @@ namespace YooAsset
             {
                 result.Add(packageBundle.BundleName);
             }
+
             return result.ToArray();
         }
+
         bool IBundleQuery.ManifestValid()
         {
             return _activeManifest != null;
         }
+
         #endregion
     }
 }

@@ -26,7 +26,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\UniTask.Linq\</OutputPath>
-    <DefineConstants>UNITY_2022_3_34;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CLOTH;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_WEBGL;TEXTCORE_1_0_OR_NEWER;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TextMeshPro;ENABLE_HYBRIDCLR;ODIN_VALIDATOR;ODIN_VALIDATOR_3_1;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;ENABLE_INFO_AND_ABOVE_LOG;FANTASY_WEBGL;FANTASY_UNITY;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2022_3_34;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CLOTH;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_WEBGL;TEXTCORE_1_0_OR_NEWER;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TextMeshPro;ENABLE_HYBRIDCLR;ODIN_VALIDATOR;ODIN_VALIDATOR_3_1;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;FANTASY_WEBGL;FANTASY_UNITY;ENABLE_INFO_AND_ABOVE_LOG;UNITASK_DOTWEEN_SUPPORT;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
@@ -45,79 +45,79 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.34f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Packages\UniTask\Runtime\Linq\Skip.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\AsyncEnumeratorBase.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\Concat.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\TakeWhile.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\Create.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\SkipWhile.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\Where.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\OfType.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\MinMax.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\SequenceEqual.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\SkipUntilCanceled.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\Join.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\UnityExtensions\EveryUpdate.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\Cast.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\Merge.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\UnityExtensions\Timer.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\Except.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\Average.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\ToLookup.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\Any.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\Queue.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\Contains.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\Pairwise.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\Sum.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\AsUniTaskAsyncEnumerable.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\Range.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\Do.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\ToHashSet.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\Never.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\LongCount.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\TakeLast.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\SkipUntil.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\Single.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\GroupBy.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\Take.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\ToUniTaskAsyncEnumerable.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\Repeat.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\SelectMany.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\TakeUntilCanceled.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\UnityExtensions\EveryValueChanged.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\Throw.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\All.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\GroupJoin.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\SkipLast.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\CombineLatest.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\Intersect.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\Return.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\ToList.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\First.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\Distinct.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\ToObservable.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\Publish.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\DefaultIfEmpty.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\Zip.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\Empty.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\Reverse.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\Max.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\Union.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\TakeUntil.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\Last.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\Buffer.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\Min.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\Subscribe.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\ForEach.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\Select.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\ToDictionary.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\OrderBy.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\ElementAt.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\AppendPrepend.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\ToArray.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\Aggregate.cs" />
-    <Compile Include="Packages\UniTask\Runtime\Linq\DistinctUntilChanged.cs" />
     <Compile Include="Packages\UniTask\Runtime\Linq\Count.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\Skip.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\AsyncEnumeratorBase.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\TakeWhile.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\MinMax.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\SequenceEqual.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\SkipUntilCanceled.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\UnityExtensions\EveryUpdate.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\Cast.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\Merge.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\UnityExtensions\Timer.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\Except.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\Any.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\Queue.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\Contains.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\Sum.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\Never.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\LongCount.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\TakeLast.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\Single.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\GroupBy.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\Take.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\SelectMany.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\UnityExtensions\EveryValueChanged.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\All.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\CombineLatest.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\Intersect.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\Distinct.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\ToObservable.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\Publish.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\Zip.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\Empty.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\Reverse.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\Max.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\Union.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\ForEach.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\OrderBy.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\AppendPrepend.cs" />
+    <Compile Include="Packages\UniTask\Runtime\Linq\DistinctUntilChanged.cs" />
     <None Include="Packages\UniTask\Runtime\Linq\CombineLatest.tt" />
     <None Include="Packages\UniTask\Runtime\Linq\Average.tt" />
     <None Include="Packages\UniTask\Runtime\Linq\Sum.tt" />
@@ -410,6 +410,42 @@
     </Reference>
     <Reference Include="Sirenix.OdinValidator.Editor">
       <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinValidator.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\WX-WASM-SDK-V2\Runtime\Plugins\LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.FontABTool">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\WX-WASM-SDK-V2\Runtime\Plugins\Unity.FontABTool.dll</HintPath>
+    </Reference>
+    <Reference Include="wx-editor">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\WX-WASM-SDK-V2\Editor\wx-editor.dll</HintPath>
+    </Reference>
+    <Reference Include="wx-runtime-editor">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\WX-WASM-SDK-V2\Runtime\Plugins\wx-runtime-editor.dll</HintPath>
+    </Reference>
+    <Reference Include="wx-perf">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\WX-WASM-SDK-V2\Runtime\Plugins\wx-perf.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiEditor">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\Plugins\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiLib">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenProEditor">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\Plugins\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Reflection.Editor">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.34f1c1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

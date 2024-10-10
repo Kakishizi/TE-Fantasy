@@ -26,7 +26,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\Assembly-CSharp\</OutputPath>
-    <DefineConstants>UNITY_2022_3_34;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CLOTH;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_WEBGL;TEXTCORE_1_0_OR_NEWER;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TextMeshPro;ENABLE_HYBRIDCLR;ODIN_VALIDATOR;ODIN_VALIDATOR_3_1;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;ENABLE_INFO_AND_ABOVE_LOG;FANTASY_WEBGL;FANTASY_UNITY;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2022_3_34;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CLOTH;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_WEBGL;TEXTCORE_1_0_OR_NEWER;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TextMeshPro;ENABLE_HYBRIDCLR;ODIN_VALIDATOR;ODIN_VALIDATOR_3_1;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;FANTASY_WEBGL;FANTASY_UNITY;ENABLE_INFO_AND_ABOVE_LOG;UNITASK_DOTWEEN_SUPPORT;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
@@ -43,65 +43,92 @@
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.34f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.34f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+    <Analyzer Include="D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\Plugins\YIUIFramework\Plugins\I2Localization\Editor\Unity XCode\UnityEditor.iOS_I2Loc.Xcode.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\GameScripts\HotFix\GameProto\GameConfig\vector2.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\AvgCore\Command\Delay.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameProto\GameConfig\test\Circle.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\AvgCore\Command\Selection.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameBase\ILogicSys.cs" />
-    <Compile Include="Assets\GameScripts\HotFix\GameLogic\Event\Interface\UIEventInterface\ILoginUI.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameLogic\GameApp_RegisterSystem.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameLogic\Helper\AuthHelper.cs" />
-    <Compile Include="Assets\GameScripts\HotFix\GameProto\LubanLib\StringUtil.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameLogic\Event\Interface\LogicEventInterface\IActorLogicEvent.cs" />
     <Compile Include="Assets\Samples\Input System\1.7.0\Simple Demo\SimpleController_UsingState.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameProto\GameConfig\item\ItemExchange.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameProto\GameConfig\item\TbItem.cs" />
-    <Compile Include="Assets\Samples\Input System\1.7.0\Simple Demo\SimpleController_UsingActions.cs" />
-    <Compile Include="Assets\GameScripts\HotFix\GameProto\LubanLib\ByteBuf.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\AvgCore\CommandExecuter\AvgUISettings.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameLogic\Common\CodeTypes\CodeTypes.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameProto\GameProtocol\OuterMessage.cs" />
-    <Compile Include="Assets\GameScripts\HotFix\GameProto\LubanLib\ITypeId.cs" />
-    <Compile Include="Assets\GameScripts\HotFix\GameLogic\Event\EventInterfaceImpAttribute.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\AvgCore\Command\CharacterAction.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\AvgCore\Utils\MonoSingleton.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameLogic\UI\UILoginWindow.cs" />
-    <Compile Include="Assets\GameScripts\HotFix\GameLogic\Common\CodeTypes\UnOrderMultiMapSet.cs" />
-    <Compile Include="Assets\GameScripts\HotFix\GameLogic\Common\ErrorCode.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameBase\SingletonBehaviour.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\AvgCore\Utils\AvgPortraitCom.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameBase\BaseLogicSys.cs" />
     <Compile Include="Assets\Test.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameProto\GameConfig\test\TestExcelBean2.cs" />
-    <Compile Include="Assets\GameScripts\HotFix\GameLogic\Event\EventInterfaceHelper.cs" />
-    <Compile Include="Assets\GameScripts\HotFix\GameLogic\GameApp.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameProto\GameProtocol\RouteType.cs" />
-    <Compile Include="Assets\GameScripts\HotFix\GameProto\GameConfig\test\Rectangle.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\AvgCore\Command\Background.cs" />
     <Compile Include="Assets\Samples\Input System\1.7.0\Simple Demo\SimpleController_UsingActionAsset.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\AvgCore\Command\FocusCharacter.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameProto\GameProtocol\OuterOpcode.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\AvgCore\Command\SceneEffect.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameProto\GameConfig\vector4.cs" />
-    <Compile Include="Assets\GameScripts\HotFix\GameProto\GameConfig\vector3.cs" />
-    <Compile Include="Assets\GameScripts\HotFix\GameLogic\Event\RegisterEventInterface_Logic.cs" />
-    <Compile Include="Assets\GameScripts\HotFix\GameBase\Singleton.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\AvgCore\Entry.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\AvgCore\Command\HEADER.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\AvgCore\Utils\TypeTextComponent.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\WX\WXInputFieldAdapter.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameLogic\Event\Gen\GroupLogic\IActorLogicEvent_Gen.cs" />
-    <Compile Include="Assets\GameScripts\HotFix\GameLogic\UI\ULobbyWindow.cs" />
-    <Compile Include="Assets\GameScripts\HotFix\GameLogic\Event\RegisterEventInterface_UI.cs" />
-    <Compile Include="Assets\GameScripts\HotFix\GameProto\LubanLib\BeanBase.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\AvgCore\CommandExecuter\AvgSettingConfig.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameLogic\Helper\TipsHelper.cs" />
-    <Compile Include="Assets\GameScripts\HotFix\GameProto\GameConfig\Tables.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameLogic\Common\CodeTypes\Attribute\BaseAttribute.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameLogic\Actor\ActorEventDefine.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameProto\GameConfig\test\TestExcelBean1.cs" />
-    <Compile Include="Assets\GameScripts\HotFix\GameBase\SingletonSystem.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\AvgCore\Command\Dialogue.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameLogic\Event\Gen\GroupUI\ILoginUI_Gen.cs" />
-    <Compile Include="Assets\GameScripts\HotFix\GameProto\GameConfig\item\EQuality.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\AvgCore\CommandCreator\CommandConfig.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameLogic\OnEnterGameAppProcedure.cs" />
+    <Compile Include="Assets\Samples\Input System\1.7.0\Simple Demo\SimpleControls.cs" />
+    <Compile Include="Assets\HybridCLRGenerate\AOTGenericReferences.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\Event\Interface\UIEventInterface\ILoginUI.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameProto\LubanLib\StringUtil.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\AvgCore\Command\CharacterSet.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\AvgCore\Command\CommandBase.cs" />
+    <Compile Include="Assets\Samples\Input System\1.7.0\Simple Demo\SimpleController_UsingActions.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameProto\LubanLib\ByteBuf.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\AvgCore\CommandExecuter\CommandSender.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\AvgCore\Utils\WaitForMouseButtonDown.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameProto\LubanLib\ITypeId.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\Event\EventInterfaceImpAttribute.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\Common\CodeTypes\UnOrderMultiMapSet.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\Common\ErrorCode.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\Event\EventInterfaceHelper.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\GameApp.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameProto\GameConfig\test\Rectangle.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameProto\GameConfig\vector3.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\Event\RegisterEventInterface_Logic.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameBase\Singleton.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\AvgCore\Command\END.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\AvgCore\Utils\ShakeHelper.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\UI\ULobbyWindow.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\Event\RegisterEventInterface_UI.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameProto\LubanLib\BeanBase.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameProto\GameConfig\Tables.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\AvgCore\Command\Predicate.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameBase\SingletonSystem.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameProto\GameConfig\item\EQuality.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\AvgCore\CommandExecuter\AVGModule.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameProto\GameConfig\test\AccessFlag.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameBase\BehaviourSingleton.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameProto\GameConfig\item\Item.cs" />
     <Compile Include="Assets\Samples\Input System\1.7.0\Simple Demo\SimpleController_UsingPlayerInput.cs" />
-    <Compile Include="Assets\Samples\Input System\1.7.0\Simple Demo\SimpleControls.cs" />
-    <Compile Include="Assets\HybridCLRGenerate\AOTGenericReferences.cs" />
+    <Compile Include="Assets\GameScripts\HotFix\GameLogic\AvgCore\Utils\YieldHelper.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameProto\ConfigSystem.cs" />
     <Compile Include="Assets\GameScripts\HotFix\GameProto\GameConfig\test\Shape.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\WX-WASM-SDK-V2\package.json" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets\Core\TEngine\AssetSetting\AssetBundleCollectorConfig.xml" />
     <None Include="Packages\UniTask\package.json" />
@@ -123,6 +150,7 @@
     <None Include="Assets\AssetRaw\Configs\about.txt" />
     <None Include="Assets\Core\TEngine\package.json" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\WX-WASM-SDK-V2\mainifest.json" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\link.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
@@ -400,6 +428,30 @@
     </Reference>
     <Reference Include="Sirenix.OdinValidator.Editor">
       <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinValidator.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\WX-WASM-SDK-V2\Runtime\Plugins\LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.FontABTool">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\WX-WASM-SDK-V2\Runtime\Plugins\Unity.FontABTool.dll</HintPath>
+    </Reference>
+    <Reference Include="wx-runtime-editor">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\WX-WASM-SDK-V2\Runtime\Plugins\wx-runtime-editor.dll</HintPath>
+    </Reference>
+    <Reference Include="wx-perf">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\WX-WASM-SDK-V2\Runtime\Plugins\wx-perf.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiLib">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Reflection.Editor">
+      <HintPath>D:\TestProject\TE-Fantasy\Client\TE-Client\Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.34f1c1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -930,9 +982,25 @@
       <Project>{1fdaa94a-8621-b3e4-1a34-7ed7e55ac7a0}</Project>
       <Name>YooAsset</Name>
     </ProjectReference>
+    <ProjectReference Include="I2Localization.Editor.csproj">
+      <Project>{1fcb2aa5-6d55-4d11-ea93-e6ca3c1ca4a9}</Project>
+      <Name>I2Localization.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="TEngine.Runtime.csproj">
       <Project>{4d2b04d9-8f4c-c30a-e6ea-af7c81b8e073}</Project>
       <Name>TEngine.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="YIUIFramework.csproj">
+      <Project>{0de09d81-0291-5c8e-0a0b-634ed4f3a5cc}</Project>
+      <Name>YIUIFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="UIEffect.csproj">
+      <Project>{d0116f77-0145-339d-21d7-52f7e242489c}</Project>
+      <Name>UIEffect</Name>
+    </ProjectReference>
+    <ProjectReference Include="WxEditor.csproj">
+      <Project>{bcecfcb3-5b9b-7894-ebb2-0137d8bdac31}</Project>
+      <Name>WxEditor</Name>
     </ProjectReference>
     <ProjectReference Include="UniTask.TextMeshPro.csproj">
       <Project>{0d442f9f-23e1-6197-0126-be875be752ca}</Project>
@@ -949,6 +1017,10 @@
     <ProjectReference Include="UniTask.Linq.csproj">
       <Project>{b1dd8c9b-18e9-3d53-b228-daeb38db8a83}</Project>
       <Name>UniTask.Linq</Name>
+    </ProjectReference>
+    <ProjectReference Include="Wx.csproj">
+      <Project>{6d7b70bb-05c0-71a9-353c-743c09add830}</Project>
+      <Name>Wx</Name>
     </ProjectReference>
     <ProjectReference Include="YooAsset.Editor.csproj">
       <Project>{5d6481ed-7e59-1cfa-e69c-9e83fc269ce9}</Project>

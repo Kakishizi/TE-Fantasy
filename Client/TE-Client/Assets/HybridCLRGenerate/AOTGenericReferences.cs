@@ -29,9 +29,6 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	// System.Action<object>
 	// System.Action<uint,uint>
 	// System.Action<ulong,ulong>
-	// System.Collections.Concurrent.ConcurrentQueue.<Enumerate>d__28<object>
-	// System.Collections.Concurrent.ConcurrentQueue.Segment<object>
-	// System.Collections.Concurrent.ConcurrentQueue<object>
 	// System.Collections.Generic.ArraySortHelper<object>
 	// System.Collections.Generic.Comparer<object>
 	// System.Collections.Generic.Dictionary.Enumerator<int,object>
@@ -95,6 +92,7 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 		// System.Void Fantasy.Async.AsyncFTaskMethodBuilder<uint>.Start<GameLogic.AuthHelper.<Login>d__1>(GameLogic.AuthHelper.<Login>d__1&)
 		// System.Void Fantasy.Async.AsyncFTaskMethodBuilder<uint>.Start<GameLogic.AuthHelper.<Register>d__0>(GameLogic.AuthHelper.<Register>d__0&)
 		// object Fantasy.Entitas.MessagePoolComponent.Rent<object>()
+		// System.Void Fantasy.Entitas.MessagePoolComponent.Return<object>(object)
 		// object System.Activator.CreateInstance<object>()
 		// byte[] System.Array.Empty<byte>()
 		// object[] System.Array.Empty<object>()
@@ -118,7 +116,7 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 		// object TEngine.ResourceModule.LoadAsset<object>(string,string)
 		// object TEngine.UIBase.FindChildComponent<object>(string)
 		// System.Void TEngine.UIModule.CloseUI<object>()
-		// System.Void TEngine.UIModule.ShowUI<object>(object[])
+		// System.Void TEngine.UIModule.ShowUIAsync<object>(object[])
 		// object TEngine.UnityExtension.FindChildComponent<object>(UnityEngine.Transform,string)
 		// string TEngine.Utility.Text.Format<object>(string,object)
 		// string TEngine.Utility.Text.ITextHelper.Format<object>(string,object)
